@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/vhr
+    username: root
+    password: ok
+mybatis:
+  mapper-locations: mapper/*.xml
+  type-aliases-package: com.kgc.kd52.pojo
